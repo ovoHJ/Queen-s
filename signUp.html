@@ -1,1 +1,56 @@
-회원가입
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Queen's </title>
+        <link rel="stylesheet" href="css/mainBG.css"/>
+        <script type="text/javascript">
+			function check() {
+				var id = document.f.id.value;
+                var pwd = document.f.pwd.value;
+                var pwdF = document.f.pwdF.value;
+                var name = document.f.name.value;
+                var email = document.f.email.value;
+					
+				if(id==""){
+					alert("아이디를 입력하세요");
+					return false;
+				}
+				if(pwd==""){
+					alert("비밀번호를 입력하세요");
+					return false;
+                }
+                if(name==""){
+					alert("이름을 입력하세요");
+					return false;
+                }
+                if(email==""){
+					alert("이메일을 입력하세요");
+					return false;
+                }
+                if(pwd != pwdF) {
+                    alert("비밀번호가 일치하지 않습니다");
+                    return false;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="center">
+            <box/>
+            <div class="box">
+                <img src="img/crown.png" width="15%"></p><br>
+                <form name="f" method="post" onsubmit="return check();" target="main" action="quizStart.html" style="display: inline;">
+                    <div class="login">
+                        <input name="id" placeholder="아이디"></p>
+                        <input type="password" name="pwd" placeholder="비밀번호"></p>
+                        <input type="password" name="pwdF" placeholder="비밀번호 확인"></p>
+                        <input name="name" placeholder="이름"></p>
+                        <input name="email" placeholder="학교이메일"></p><br>
+                        <input type="submit" value="회원가입" class="submit">
+                    </div>
+                </form>
+            </div>
+                
+        </div>
+    </body>
+</html>
