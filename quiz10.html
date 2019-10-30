@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Queen's </title>
+        <link rel="stylesheet" href="css/quiz10.css">
+        <script>
+                function check() {
+                    alert("정답은 가위바위보 입니다.");
+                }
+            </script>
+    </head>
+    <body>
+        <div class="center">
+            <box/>
+            <div class = "logo"><img src = "img/crown.png" width = 80px height = 70px></div>
+            <div class= "round-box">10라운드</div>
+            <div class = "Q-font1"><h3><b>5</b>는 <b>0</b>보다 강하고,</h3></div> 
+            <div class = "Q-font2"><h3><b>0</b>는 <b>2</b>보다 강하고,</h3></div>
+            <div class = "Q-font3"><h3><b>2</b>는 <b>5</b>보다 강하다.</h3></div><!--정답은 가위바위보 입니다.-->
+            <div class = "Q-font4"><h3>왜일까?</h3></div>
+            <form name = "f" method="post" onsubmit="return check();" action="end.html">
+                <input type="submit" class="red-box" value="정답">
+                <input class="Q-box" name="q2">
+            <div class= "explain-font">※입력 후 빨간색 정답 버튼을 눌러주세요. </div>
+        </div>
+    </body>
+</html>

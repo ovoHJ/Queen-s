@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-image : url("../img/BGimage.png");
+    background-size : 100% 100%;
+}
+
+.center { 
+    height: 100%;
+    position: relative;
+    border: 0; 
+}
+.center .box {
+    background-color: white;
+    width:90%;
+    height: 90%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.center .box .login {
+    width:85%;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    line-height: 60px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+input {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 40%;
+    height: 45px;
+    font-size: 14pt;
+    box-shadow: none;
+    padding-left: 20px;
+}
+select {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+    width: 40%;
+    height: 45px;
+    font-size: 14pt;
+    box-shadow: none;
+    padding-left: 20px;
+}
+input:focus {
+    outline: none;    
+}
+.submit {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #BF3E3E;
+    color: white;
+    height: 50px;
+}
+h {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
+    font-size: 25pt;
+}

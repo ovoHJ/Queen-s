@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Queen's </title>
+        <link rel="stylesheet" href="css/quiz1.css">
+        <script>
+                function check() {
+                    alert("정답은 리눅스반 입니다.");
+                }
+            </script>
+    </head>
+    <body>
+        <div class="center">
+            <box/>
+            <div class = "logo"><img src = "img/crown.png" width = 80px height = 70px></div>
+            <div class= "round-box">1라운드</div>
+            <div class="red-box1"><b>1</b></div>
+            <div class="red-box2"><b>2</b></div>
+            <div class="red-box3"><b>3</b></div> 
+            <div class="red-box4"><b>4</b></div>
+            <form name="f" method="post" onsubmit="return check();" action="quiz2.html">
+                <input class="Q-box1" type="submit" value="리눅스반" name="1">
+                <input class="Q-box2" type="submit" value="트로트반" name="2">
+                <input class="Q-box3" type="submit" value="퍼즐앤퀴즈반" name="3">
+                <input class="Q-box4" type="submit" value="중국어문화반" name="4">
+            </form>
+            <div class = "Q-font"><h3>전시 작품 동아리 이름은?</h3></div>
+        </div>
+    </body>
+</html>

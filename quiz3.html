@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Queen's </title>
+        <link rel="stylesheet" href="css/quiz3.css">
+        <script>
+                function check() {
+                    alert("정답은 카톡 입니다.");
+                }
+            </script>
+    </head>
+    <body>
+        <div class="center">
+            <box/>
+            <div class = "logo"><img src = "img/crown.png" width = 80px height = 70px></div>
+            <div class= "round-box">3라운드</div>
+            
+            <form name = "f" method="post" onsubmit="return check();" action="quiz4.html">
+                <input type="submit" class="red-box" value="정답">
+                <input class="Q-box" name="q2">
+            </form>
+            <div class = "Q-font"><h3>자동차를 톡 하고 치면?</h3></div> <!--정답은 카톡 입니다.-->
+            <div class= "explain-font">※입력 후 빨간색 정답 버튼을 눌러주세요. </div>
+        </div>
+    </body>
+</html>

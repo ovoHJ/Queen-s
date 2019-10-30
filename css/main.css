@@ -1,24 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+KR&display=swap');
+
 body {
+    font-family: 'Noto Sans KR', sans-serif;
     background-image : url("../img/BGimage.png");
     background-size : 100% 100%;
 }
+
 .center { 
     height: 100%;
     position: relative;
     border: 0; 
 }
 .center .box {
-    width:80%;
-    height: 80%;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-.center box {
     background-color: white;
     width:90%;
     height: 90%;
@@ -30,23 +23,40 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.center .box .login {
+    width:85%;
+    height: 50%;
+    margin: 0;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    line-height: 30px;
+    font-size: 2em;
+    font-weight: bold;
+}
 input {
-    
-    background-color: #C4C4C4;
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: rgb(255, 255, 255);
     border: 1px solid black;
-    width: 35%;
-    height: 40px;
+    width: 20%;
+    height: 45px;
     font-size: 14pt;
     box-shadow: none;
     padding-left: 20px;
 }
-input:focus {
-    outline: none;
-    
-}
-
 .submit {
+    font-family: 'Noto Sans KR', sans-serif;
     background-color: #293B71;
     color: white;
     height: 50px;
+    border-radius: 20px;
+}
+h {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bolder;
+    font-size: 15pt;
 }

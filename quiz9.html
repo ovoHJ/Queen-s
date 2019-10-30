@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Queen's </title>
+        <link rel="stylesheet" href="css/quiz9.css">
+        <script>
+                function check() {
+                    alert("정답은 개인지도 입니다.");
+                }
+            </script>
+    </head>
+    <body>
+        <div class="center">
+            <box/>
+            <div class = "logo"><img src = "img/crown.png" width = 80px height = 70px></div>
+            <div class= "round-box">9라운드</div>
+            <div class= "red-box"><b>정답</b></div>
+            <div class = "Q-box"></div> <!--여기에 힌트 글씨로 "정답을 입력하세요" 또는 "정답 입력란"이라고 쓰기-->
+            <form nsme = "f" method="post" onsubmit="return check();" action="quiz10.html">
+                <input type="submit" class="red-box" value="정답">
+                <input class="Q-box" name="q2">
+            </form>
+            <div class = "Q-font"><h3>개가 사람을 가르친다를 나타내는 사자성어는?</h3></div> <!--정답은 개인지도 입니다.-->
+            <div class= "explain-font">※입력 후 빨간색 정답 버튼을 눌러주세요. </div>
+        </div>
+    </body>
+</html>

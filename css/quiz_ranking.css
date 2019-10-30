@@ -1,0 +1,196 @@
+
+            body {
+                background-image : url("../img/BGimage.png");
+                background-size : 100% 100%; 
+            }
+            .center { 
+                height: 100%;
+                position: relative;
+                border: 0; 
+            }
+            .center box {
+                background-color: white;
+                width:90%;
+                height: 90%; 
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+
+            .logo {
+                position: absolute;
+                margin: 0;
+                top: 15%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                text-align: center;
+            }
+
+            .box1 {
+                background-color: #C4C4C4;
+                width: 180px;
+                height: 30px;
+                margin: 0;
+                border-radius: 5px;  
+                text-align : center;
+                line-height: 170px;
+                font-size: 60px;   
+                color: black;
+                position: absolute; 
+                top: 20%;
+                left: 55%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+               
+                
+            }
+            .box2 {
+                background-color: #C4C4C4;
+                width: 180px;
+                height: 30px;
+                margin: 0;
+                border-radius: 5px;  
+                text-align : center;
+                line-height: 170px;
+                font-size: 60px;   
+                color: black;
+                position: absolute;
+                top: 35%;
+                left: 55%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                
+                
+            }
+            .box3 {
+                background-color: #C4C4C4;
+                width: 180px;
+                height: 30px;
+                margin: 0;
+                border-radius: 5px;  
+                text-align : center;
+                line-height: 170px;
+                font-size: 60px;   
+                color: black;
+                position: absolute;
+                top: 50%;
+                left: 55%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                
+                
+            }
+            .box4 {
+                background-color: #C4C4C4;
+                width: 180px;
+                height: 30px;
+                margin: 0;
+                border-radius: 5px;  
+                text-align : center;
+                line-height: 170px;
+                font-size: 60px;   
+                color: black;
+                position: absolute;
+                top: 65%;
+                left: 55%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                
+                
+            }
+            .box5 {
+                background-color: #C4C4C4;
+                width: 180px;
+                height: 30px;
+                margin: 0;
+                border-radius: 5px;  
+                text-align : center;
+                line-height: 170px;
+                font-size: 60px;   
+                color: black;
+                position: absolute;
+                top: 80%;
+                left: 55%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                
+                
+            }
+            .in-box { 
+                border:1px solid #C4C4C4; 
+                padding:10px; 
+                width: 380px; 
+                height : 350px;
+                position: absolute;
+                top: 60%;
+                left: 50%;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                
+            }
+
+            .g-medal{
+                position: absolute;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                top : 20%;
+                left: 25%;
+            }
+
+            .s-medal{
+                position: absolute;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                top : 35%;
+                left: 25%;
+            }
+
+            .b-medal{
+                position: absolute;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                top : 50%;
+                left: 25%;
+            }
+
+            .font-4{
+                position: absolute;
+                top : 65%;
+                left: 25%;
+                font-size: 14px;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+            }
+
+            .font-5{
+                position: absolute;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                top : 80%;
+                left: 25%;
+                font-size: 14px;
+            }
+            .font-Rank{
+                position: absolute;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                top : 25%;
+                left: 50%;
+                font-size: 40px;
+                color: black;
+                font-style: "배달의민족 도현";
+            }
+            .font-Rank2{
+                position: absolute;
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                top : 32%;
+                left: 50%;
+                font-size: 20px;
+                color: black;
+                font-style: "배달의민족 도현";
+            }
